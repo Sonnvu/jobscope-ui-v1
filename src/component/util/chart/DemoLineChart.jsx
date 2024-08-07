@@ -1,9 +1,11 @@
-import {Chart as ChartJS, defaults} from "chart.js/auto";
+import {defaults} from "chart.js/auto";
 import {Line} from "react-chartjs-2";
 
+defaults.maintainAspectRatio = false;
+defaults.responsive = true;
 export default function DemoLineChart() {
     return (
-        <div className="w-full p-10 pr-40">
+        <div className="w-full h-full p-10">
             <Line data={{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August'],
                 datasets: [

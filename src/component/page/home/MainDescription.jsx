@@ -23,7 +23,7 @@ export default function MainDescription() {
             <p className="text-lg font-normal text-gray-700 pr-10">And more insights in your
                 interested field, major and company for a tailored skill set
             </p>
-            <button className="px-4 py-2.5 mr-auto rounded-xl font-bold text-white bg-blue-500">
+            <button className="px-10 py-4 mr-auto rounded-2xl hover:bg-blue-900 font-bold text-white bg-blue-500 transition">
                 Discover More
             </button>
         </div>

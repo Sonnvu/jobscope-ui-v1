@@ -1,11 +1,11 @@
 import {Bar} from "react-chartjs-2";
-import { Chart as ChartJS, defaults} from "chart.js/auto"
+import {defaults} from "chart.js/auto"
 
 defaults.maintainAspectRatio = false;
 defaults.responsive = true;
 export default function DemoBarChart() {
     return (
-        <div className="w-full p-10 pr-40">
+        <div className="w-full h-full p-10">
             <Bar data={{
                     labels: ["A", "B", "C", "A", "B", "C", "D"],
                     datasets: [

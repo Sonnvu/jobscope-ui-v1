@@ -1,8 +1,5 @@
 import MainDescription from "./MainDescription";
-import DemoBarChart from "../../util/chart/DemoBarChart";
-import DemoPolarArea from "../../util/chart/DemoPolarArea";
 import {ChartAnimation} from "../../util/animation/ChartAnimation";
-import DemoLineChart from "../../util/chart/DemoLineChart";
 
 export default function HeroSection() {
     return (
@@ -10,7 +7,7 @@ export default function HeroSection() {
             <div className="flex items-center h-full w-1/2">
                 <MainDescription />
             </div>
-            <div className="flex justify-center items-center h-full w-1/2">
+            <div className="flex justify-center items-center h-full w-1/2 pr-32">
                 <ChartAnimation />
             </div>
         </div>
