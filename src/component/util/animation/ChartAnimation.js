@@ -6,7 +6,7 @@ import DemoLineChart from "../chart/DemoLineChart";
 export const ChartAnimation = () => {
     const [currentChart, setCurrentChart] = useState(0);
     const charts = [
-        <DemoBarChart />,
+        <DemoBarChart index={0}/>,
         <DemoPolarArea />,
         <DemoLineChart />
     ]

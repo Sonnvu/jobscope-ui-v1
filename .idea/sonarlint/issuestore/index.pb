@@ -11,5 +11,3 @@ B
 .src/component/util/animation/TextAnimation.jsx,1/a/1a81d6179331584903b8600fed75ecb3b8615889
 [
 +src/component/page/home/MainDescription.jsx,a/3/a3485a2f6830be32aa25836ebb2f230f6f3dba56
-W
-'src/component/util/card/TwoSlotCard.jsx,9/2/926514989b2de0e03d5c3daa4b3a9531eb2fdc3e

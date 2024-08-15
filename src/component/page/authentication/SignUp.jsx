@@ -1,5 +1,4 @@
 import {useState} from "react";
-import {setsEqual} from "chart.js/helpers";
 import axios from "axios";
 
 export default function SignUp() {
