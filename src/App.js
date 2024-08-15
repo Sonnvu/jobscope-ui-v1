@@ -8,7 +8,7 @@ function App() {
     <div>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />}/>
+                <Route path="/jobscope-ui-v1" element={<Home />}/>
                 <Route path="/signup" element={<SignUp />} />
             </Routes>
         </BrowserRouter>
