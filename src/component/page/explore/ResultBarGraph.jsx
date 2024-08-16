@@ -22,7 +22,7 @@ const data = {
 export default function ResultBarGraph() {
     return (
         <div className="bg-slate-100">
-            <div className="mx-80 px-10 py-7 pr-20 rounded-2xl bg-white">
+            <div className="px-10 py-7 pr-20 rounded-2xl bg-white">
                 <div className="pl-5">
                     <p className="text-lg font-poppins font-medium text-gray-600">Skill Requirement for: FPGA Design Engineer</p>
                 </div>
