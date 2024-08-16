@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jobscope-ui-v1/static/css/main.9e8671db.css",
-    "main.js": "/jobscope-ui-v1/static/js/main.b0bce95c.js",
+    "main.css": "/jobscope-ui-v1/static/css/main.921fb7a8.css",
+    "main.js": "/jobscope-ui-v1/static/js/main.63345328.js",
     "static/media/logoBlue.png": "/jobscope-ui-v1/static/media/logoBlue.027139853401332165c4.png",
     "index.html": "/jobscope-ui-v1/index.html",
-    "main.9e8671db.css.map": "/jobscope-ui-v1/static/css/main.9e8671db.css.map",
-    "main.b0bce95c.js.map": "/jobscope-ui-v1/static/js/main.b0bce95c.js.map"
+    "main.921fb7a8.css.map": "/jobscope-ui-v1/static/css/main.921fb7a8.css.map",
+    "main.63345328.js.map": "/jobscope-ui-v1/static/js/main.63345328.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8671db.css",
-    "static/js/main.b0bce95c.js"
+    "static/css/main.921fb7a8.css",
+    "static/js/main.63345328.js"
   ]
 }
