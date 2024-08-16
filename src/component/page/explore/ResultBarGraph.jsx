@@ -21,9 +21,18 @@ const data = {
 
 export default function ResultBarGraph() {
     return (
-        <div className="bg-slate-100 py-10">
-            <div className="mx-80 p-10 pr-20 h-96 rounded-2xl bg-white">
-                <BarChart data={data} overwrite="h-full w-full"/>
+        <div className="bg-slate-100">
+            <div className="mx-80 px-10 py-7 pr-20 rounded-2xl bg-white">
+                <div className="pl-5">
+                    <p className="text-lg font-poppins font-medium text-gray-600">Skill Requirement for: FPGA Design Engineer</p>
+                </div>
+                <div className="pl-5">
+                    <p className="text-sm font-poppins text-gray-400">Last 1 month</p>
+                </div>
+                <div className="h-96 pt-2">
+                    <BarChart data={data} overwrite="h-full w-full"/>
+                </div>
+                
             </div>
         </div>
     )
